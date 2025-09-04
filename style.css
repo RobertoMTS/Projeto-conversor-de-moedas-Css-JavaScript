@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+body, html{
+    height: 100%;
+}
+
+label {
+        display: block;
+        font-weight: 600;
+        margin-bottom:10px;
+
+    }
+
+main {
+    background: linear-gradient(#3b27a0, #8662f4, #ffeef8);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    width:400px; height: 500px;
+    background: white;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h1 {
+        text-align: center;
+        color: #2e2727;
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    
+}
+
+
+.caixa-valor{
+
+    input{
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+        border: #08080867 solid 2px;
+        outline-color:#3b27a0 ;
+        margin-top: 10px;
+        border-radius: 13px;
+    }
+
+    
+}
+
+.caixa-moedas {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
